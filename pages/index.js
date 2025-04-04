@@ -138,7 +138,6 @@ export default function Home() {
       {!showIframe ? (
         <div className="centered-form">
           <div className="form-box">
-            <img src="/logo.png" alt="Bestwork Logo" className="logo" />
             <h2>Gestión Onboarding y Bienvenida</h2>
             <form onSubmit={handleSearch}>
               <input
